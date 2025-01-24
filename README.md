@@ -1,7 +1,68 @@
-# Regression-Statistic
-Deskripsi Proyek:
-Proyek ini berfokus pada statistika regresi dan pengujian hipotesis menggunakan model OLS (Ordinary Least Squares) pada data yang diberikan. Proyek ini mencakup beberapa konsep statistika regresi, termasuk korelasi Spearman, Tau Kendall, dan Pearson, serta pengujian hipotesis, uji t, R-square, heteroskedastisitas, dan autokorelasi. Analisis ini merupakan bagian penting dalam memahami hubungan antara variabel-variabel dalam suatu dataset dan untuk membuat prediksi berdasarkan hubungan tersebut. Selain itu, proyek ini juga menggunakan metode bootstrap untuk mengestimasi mean dan varians dari data yang diberikan. Bootstrap adalah metode resampling yang berguna untuk menghitung statistik deskriptif dan parameter dari sampel data, tanpa harus membuat asumsi tertentu tentang distribusi populasi.Selanjutnya, proyek ini menggunakan metode jackknife untuk mengestimasi mean dan varians. Jackknife adalah metode resampling yang menghilangkan satu observasi pada satu waktu dari data asli.
+# Statistical Analysis
 
-Dengan menggunakan bahasa pemrograman tertentu, proyek ini akan menerapkan berbagai teknik statistik regresi pada dataset yang diberikan. Ini termasuk menghitung koefisien korelasi antara variabel-variabel, melakukan uji t untuk mengevaluasi signifikansi koefisien regresi, menghitung R-square untuk mengevaluasi seberapa baik model regresi sesuai dengan data, serta menganalisis keberadaan heteroskedastisitas dan autokorelasi dalam residu model.
+## Deskripsi Proyek
+Proyek ini mencakup analisis statistik yang luas, termasuk statistika regresi, statistika non-parametrik, pengujian hipotesis, dan metode resampling. Dengan menggunakan berbagai teknik, proyek ini bertujuan untuk memahami hubungan antara variabel dalam dataset, memvalidasi hipotesis, dan memberikan wawasan berbasis data untuk pengambilan keputusan.
 
-Melalui proyek ini, diharapkan pengguna dapat memahami bagaimana menerapkan dan menginterpretasikan berbagai teknik statistik regresi, serta mengidentifikasi masalah-masalah yang mungkin muncul dalam analisis regresi. Hal ini dapat memberikan wawasan yang berharga dalam pengambilan keputusan berbasis data dan pengembangan model prediksi yang lebih akurat.
+### Ruang Lingkup Proyek
+1. **Statistika Regresi**
+   - **Model OLS (Ordinary Least Squares):** Menganalisis hubungan antara variabel-variabel dalam dataset.
+   - **Koefisien Korelasi:**
+     - Pearson
+     - Spearman
+     - Tau Kendall
+   - **R-square:** Mengevaluasi sejauh mana model regresi menjelaskan variasi data.
+   - **Identifikasi Masalah Model:**
+     - Heteroskedastisitas
+     - Autokorelasi
+   - **Uji Signifikansi:** Menggunakan uji t untuk mengevaluasi signifikansi statistik dari koefisien regresi.
+
+2. **Statistika Non-Parametrik**
+   - Digunakan untuk analisis data tanpa asumsi distribusi tertentu.
+   - Teknik yang diterapkan:
+     - Uji Wilcoxon (Wilcoxon Signed-Rank Test)
+     - Uji Mann-Whitney (Mann-Whitney U Test)
+     - Uji Kruskal-Wallis
+     - Uji Friedman
+   - Cocok untuk membandingkan kelompok data ketika asumsi normalitas tidak terpenuhi.
+
+3. **Pengujian Hipotesis**
+   - Menyediakan uji statistik untuk memvalidasi hipotesis tertentu berdasarkan data.
+   - Mendukung berbagai jenis uji statistik untuk mengevaluasi parameter model.
+
+4. **Metode Resampling**
+   - **Bootstrap:** Mengestimasi mean, varians, dan parameter lainnya tanpa asumsi distribusi populasi.
+   - **Jackknife:** Mengestimasi statistik deskriptif dengan menghilangkan satu observasi pada satu waktu dari dataset.
+
+5. **Visualisasi Data**
+   - Menggunakan grafik batang, scatter plot, dan heatmap untuk menunjukkan hubungan dan pola dalam data.
+   - Alat visualisasi utama:
+     - Matplotlib
+     - Seaborn
+
+### Teknologi yang Digunakan
+Proyek ini menggunakan bahasa pemrograman Python dan pustaka-pustaka berikut:
+- **NumPy**: Untuk komputasi numerik dan manipulasi array.
+- **Pandas**: Untuk manipulasi dan analisis data berbasis tabel.
+- **SciPy**: Untuk pengujian hipotesis dan analisis non-parametrik.
+- **Statsmodels**: Untuk analisis regresi dan model statistik.
+- **Matplotlib & Seaborn**: Untuk visualisasi data.
+
+## Cara Menggunakan
+1. **Clone repositori ini:**
+   ```bash
+   git clone https://github.com/username/statistical-analysis.git
+2. Masuk ke direktori proyek:
+   ```bash
+   git clone https://github.com/username/statistical-analysis.git
+   cd statistical-analysis
+3. Jalankan analisis:
+Gunakan file notebook (.ipynb) untuk langkah-langkah analisis interaktif, atau
+4. Jalankan skrip Python utama untuk analisis otomatis:
+   ```bash
+   python main.py
+
+#Tujuan Proyek
+- Mengajarkan cara menggunakan berbagai teknik statistik pada data nyata.
+- Meningkatkan pemahaman tentang hubungan antar variabel melalui analisis regresi dan non-parametrik.
+- Memberikan wawasan berbasis data untuk pengambilan keputusan.
+- Menyediakan metode resampling untuk analisis lanjutan.
