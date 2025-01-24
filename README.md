@@ -59,7 +59,7 @@ Proyek ini menggunakan bahasa pemrograman Python dan pustaka-pustaka berikut:
 Gunakan file notebook (.ipynb) untuk langkah-langkah analisis interaktif, atau
 4. Jalankan skrip Python utama untuk analisis otomatis:
    ```bash
-   python main.py
+   python
 
 #Tujuan Proyek
 - Mengajarkan cara menggunakan berbagai teknik statistik pada data nyata.
